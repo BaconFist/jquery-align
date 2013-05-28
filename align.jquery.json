@@ -1,0 +1,32 @@
+{
+    "name": "align",
+    "version": "1.0.0",
+    "title": "jQuery Alignment Plugin",
+    "author": {
+        "name": "Thomas Klose",
+        "email": "speck@bratler.net"
+    },
+    "licenses": [
+        {
+            "type": "GPLv3",
+            "url": "http://www.gnu.org/licenses/gpl.html"
+        }
+    ],
+    "dependencies": {
+        "jquery": "<=2.x.x"
+    },
+    "description": "Plugin to align an Element to another.",
+    "keywords": [
+        "align",
+        "valign",
+        "halign",
+        "horizontal",
+        "vertical"
+    ],
+    "docs": "https://github.com/BaconFist/jquery-align",
+    "bugs": "https://github.com/BaconFist/jquery-align/issues",
+    "maintainers": [{
+        "name": "Thomas Klose",
+        "email": "speck@bratler.net"
+    }]
+}
