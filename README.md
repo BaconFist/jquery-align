@@ -20,7 +20,7 @@ $("#some-element").align();
 $("#some-element").align({'parent':'#the-parent'});
 ```
 
-##auto-update on windows-resize
+##auto-update on window-resize
 ```javascript
 $(document).ready(function(){
     $(window).resize(function(){
