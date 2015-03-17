@@ -28,7 +28,7 @@ Sie sollten eine Kopie der GNU General Public License zusammen mit diesem
 Programm erhalten haben. Wenn nicht, siehe <http://www.gnu.org/licenses/>.
 */
 /*
-    Version 1.0.0
+    Version 1.0.1
 */
 
 jQuery.fn.extend({
@@ -47,7 +47,7 @@ jQuery.fn.extend({
         }
         
         if(settings.vertical || settings.horizontal) {
-            var parent = $(settings.parent);
+            var parent = jQuery(settings.parent);
             var childTop = null;
             var childLeft = null;
             var parentOffset = parent.offset();
@@ -58,7 +58,7 @@ jQuery.fn.extend({
 
             if(settings.vertical){
                 var parentHeight = null;
-                if(parent == $(window) || parent == $(document)){
+                if(parent == jQuery(window) || parent == jQuery(document)){
                     parentHeight = parent.height();
                 } else {
                     parentHeight = parent.innerHeight();
@@ -73,7 +73,7 @@ jQuery.fn.extend({
             
             if(settings.horizontal){
                 var parentWidth = null;
-                if(parent == $(window) || parent == $(document)){
+                if(parent == jQuery(window) || parent == jQuery(document)){
                     parentWidth = parent.width();
                 } else {
                     parentWidth = parent.innerWidth();
